@@ -1,0 +1,6 @@
+{
+  "name": "KAUSHIK LIVE TV - Streamz World",
+  "description": "Free IPTV Live TV Streaming application for Android Mobile and Smart TV featuring M3U playlist import, HLS ExoPlayer playback, Indian channel categories, and remote navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

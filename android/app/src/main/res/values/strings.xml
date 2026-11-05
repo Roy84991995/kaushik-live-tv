@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">KAUSHIK LIVE TV</string>
+    <string name="title_activity_main">KAUSHIK LIVE TV</string>
+    <string name="package_name">com.kaushik.livetv</string>
+    <string name="custom_url_scheme">com.kaushik.livetv</string>
+</resources>
