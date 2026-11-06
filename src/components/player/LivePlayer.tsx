@@ -383,7 +383,7 @@ export const LivePlayer: React.FC = () => {
       ref={containerRef}
       onMouseMove={resetControlsTimer}
       onClick={resetControlsTimer}
-      className={`relative w-full aspect-video max-h-[72vh] bg-black rounded-2xl overflow-hidden shadow-2xl group border border-white/10 select-none ${
+      className={`relative w-full aspect-video max-h-[72vh] portrait:max-h-none bg-black rounded-2xl overflow-hidden shadow-2xl group border border-white/10 select-none ${
         isFullscreen ? 'fixed inset-0 z-50 rounded-none max-h-none h-screen' : ''
       }`}
     >
