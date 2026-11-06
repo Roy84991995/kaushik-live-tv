@@ -30,8 +30,6 @@ jobs:
       - name: Build web app
         run: npm run build
 
-      - name: Setup Android
-        uses: android-actions/setup-android@v3
 
       - name: Sync Capacitor
         run: npx cap sync android
