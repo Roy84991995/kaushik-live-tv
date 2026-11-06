@@ -33,7 +33,7 @@ export const ChannelCard: React.FC<ChannelCardProps> = ({ channel, isFocused, on
       } ${
         isPlaying
           ? isActivelyLive
-            ? 'border-indigo-500 shadow-xl shadow-indigo-600/25 ring-2 ring-indigo-500/50'
+            ? 'border-indigo-400 shadow-2xl shadow-indigo-500/40 ring-2 ring-indigo-400/60'
             : hasError
             ? 'border-rose-500 shadow-xl shadow-rose-900/30'
             : 'border-amber-500/80 shadow-xl shadow-amber-900/20'
@@ -68,7 +68,7 @@ export const ChannelCard: React.FC<ChannelCardProps> = ({ channel, isFocused, on
       </div>
 
       {/* Channel Logo & Visual Container */}
-      <div className="relative aspect-video w-full rounded-xl bg-black/50 flex items-center justify-center p-3 overflow-hidden border border-white/5 group-hover:border-white/15 transition-colors">
+      <div className="relative aspect-video w-full rounded-xl bg-gradient-to-br from-indigo-950/70 to-black flex items-center justify-center p-3 overflow-hidden border border-indigo-500/20 shadow-inner shadow-indigo-500/10 group-hover:border-white/15 transition-colors">
         {channel.logo ? (
           <img
             src={channel.logo}
@@ -98,7 +98,7 @@ export const ChannelCard: React.FC<ChannelCardProps> = ({ channel, isFocused, on
           <div
             className={`absolute bottom-2 left-2 flex items-center gap-1 text-[9px] font-bold px-2 py-0.5 rounded-full shadow-lg ${
               isActivelyLive
-                ? 'bg-red-600/90 text-white'
+                ? 'bg-red-500 text-white shadow-red-500/50 ring-1 ring-red-300/60'
                 : isConnecting
                 ? 'bg-amber-600/90 text-amber-100'
                 : 'bg-rose-700/90 text-white'

@@ -50,7 +50,7 @@ export const FeaturedHero: React.FC = () => {
 
           {/* Description */}
           <p className="text-slate-300 text-sm sm:text-base max-w-xl leading-relaxed mb-6">
-            Watch continuous live high-definition broadcast powered by ROY LIVE TV on
+            Watch continuous live high-definition broadcast powered by KAUSHIK LIVE TV on
             Android Mobile & Android Smart TV. Free and verified live streams with zero subscription.
           </p>
 
@@ -104,7 +104,7 @@ export const FeaturedHero: React.FC = () => {
 
             <div className="mt-4 text-center">
               <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest">
-                STREAMZ WORLD NETWORK
+                KAUSHIK LIVE TV • OFFICIAL STREAMING
               </span>
               <p className="text-sm font-bold text-slate-200 mt-1">High Speed Direct HLS Stream</p>
             </div>
