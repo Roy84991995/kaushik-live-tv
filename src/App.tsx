@@ -120,7 +120,7 @@ function MainContent() {
         )}
 
         {/* Live TV Video Player Section */}
-        <section className="w-full">
+        <section className="sticky top-[72px] z-30 w-full -mx-4 px-4 py-2 bg-[#06060c]/95 backdrop-blur-xl border-b border-white/10 sm:static sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent sm:backdrop-blur-none sm:border-0">
           <LivePlayer />
         </section>
 
